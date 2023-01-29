@@ -1,0 +1,55 @@
+.Dropdown {
+  margin: 12px;
+  padding: 18px;
+  border-radius: 5px;
+  width: "100%";
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+.Dropdown {
+  font-size: 20px;
+  border-bottom: 2px solid black;
+}
+
+.general-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  text-align: right;
+  margin: 10px;
+}
+
+.list {
+  padding: 10px;
+}
+
+.select1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 4em;
+  color: #7e7e7e;
+  border-radius: 0.25em;
+  overflow: hidden;
+  border: 0.7px solid #909090;
+  background-color: #fff;
+}
+
+/* Arrow */
+.select1::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1.2em;
+  background-color: #ffffff;
+  transition: 1s all ease;
+  pointer-events: none;
+}
+
+/* Transition */
+.select1:hover::after {
+  color: #005481;
+}

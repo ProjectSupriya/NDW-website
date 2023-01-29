@@ -1,0 +1,25 @@
+.PageSection {
+  padding: 3%;
+}
+
+p {
+  text-align: left;
+  line-height: 28px;
+  font-size: 17px;
+  color: rgb(49, 49, 49);
+  font-family: "SF UI Text";
+}
+
+.left-heading {
+  text-align: left;
+  padding-top: 8px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}

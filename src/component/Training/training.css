@@ -1,0 +1,11 @@
+.head-text {
+  position: relative;
+  color: white;
+}
+
+.center__text {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
